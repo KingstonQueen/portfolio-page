@@ -2,6 +2,12 @@ html {
     background-color: black;
 }
 
+* {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
 .welcome {
     background-color: black;
     text-align: center;
@@ -13,11 +19,26 @@ html {
     padding: 30px;
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 13%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    overflow: hidden;
+    align-items: center;
 }
 
 h1 {
     color: white;
     font-size: 45px;
+}
+
+p {
+    color: white;
+    text-shadow: 5px 5px 5px rgb(87, 87, 87);
+    font-size: 20px;
 }
 
 .nav {
@@ -28,6 +49,7 @@ h1 {
     left: 0;
     width: 100%;
     z-index: 10;
+    background-color: rgb(0, 0, 0);
 }
 
 nav::after {
