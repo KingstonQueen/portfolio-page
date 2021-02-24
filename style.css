@@ -1,14 +1,5 @@
-* {
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
-
-.name {
-    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
-    -moz-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
-    -webkit-border-radius: 1em 4em 1em 4em / 1em 2em 1em 2em;
+#welcome-section {
+    text-align: center;
+    text-shadow: blueviolet;
+    text-transform: capitalize;
 }
