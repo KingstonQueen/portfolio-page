@@ -40,9 +40,15 @@ h1 {
     font-size: 45px;
 }
 
+h3 {
+    color: white;
+    font-style: italic;
+    font-size: 23px;
+}
+
 p {
     color: white;
-    text-shadow: 5px 5px 5px rgb(87, 87, 87);
+    font-style: italic;
     font-size: 20px;
 }
 
@@ -66,7 +72,7 @@ nav::after {
 a {
     text-decoration: none;
     font-size: 20px;
-    text-shadow: 5px 5px 5px rgb(197, 21, 241);
+    text-shadow: 3px 3px 5px rgb(197, 21, 241);
     color: white;
     margin: 15px;
     padding: 3px;
@@ -74,6 +80,11 @@ a {
 
 .project-heading {
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: crimson;
+    margin: 0 auto;
+    text-shadow: 5px 5px 5px black;
 }
 
 #projects {
@@ -85,6 +96,9 @@ a {
     text-align: center;
     width: 100%;
     justify-content: center;
+    background-color: rgb(24, 24, 24);
+    padding-top: 50px;
+    margin: 0 auto;
 }
 
 #project-tile {
@@ -93,6 +107,12 @@ a {
 
 .image {
     width: 450px;
+    border-top: 3px solid blue;
+    border-left: 3px solid crimson;
+    border-bottom: 3px solid darkolivegreen;
+    border-right: 3px solid darkviolet;
+    border-radius: 10px;
+    margin-bottom: 10px;;
 }
 
 #projects::after {
@@ -102,16 +122,22 @@ a {
 }
 
 .view-all {
-    background-color: blue;
+    background-color: black;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     font-size: 24px;
     text-align: center;
     display: inline-block;
+    border-top: 1px solid blue;
+    border-left: 1px solid crimson;
+    border-bottom: 2px solid darkolivegreen;
+    border-right: 2px solid darkviolet;
 }
 
 .button {
     text-align: center;
+    background-color: rgb(24, 24, 24);
+    padding-bottom: 50px;
 }
 
 footer {
