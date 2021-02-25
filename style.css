@@ -71,14 +71,58 @@ a {
     padding: 3px;
 }
 
+.project-heading {
+    text-align: center;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    column-gap: 50px;
+    row-gap: 100px;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+#project-tile {
+    padding-top: 18px;
+}
+
+.image {
+    width: 450px;
+}
+
+#projects::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.view-all {
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+}
+
+.button {
+    text-align: center;
+}
+
 footer {
     width: 100%;
     background-color: rgb(0, 0, 0);
     color: white;
     margin: 0;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 70px;
     align-items: center;
     text-align: center;
+    border-top: 3px solid crimson;
 }
 
 footer.link-container {
